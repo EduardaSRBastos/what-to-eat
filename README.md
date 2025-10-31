@@ -16,7 +16,6 @@
 ## Table of Contents
 - [Features](#features)
 - [How to Use](#how-to-use)
-- [Performance Score](#pagespeed-insights-performance-score)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -39,18 +38,11 @@
 
 <br>
 
-## PageSpeed Insights Performance Score
-<div align="center">
-  
-| [Desktop](https://pagespeed.web.dev/analysis/https-eduardasrbastos-github-io-what-to-eat/zacmq8kevy?form_factor=desktop) | [Mobile](https://pagespeed.web.dev/analysis/https-eduardasrbastos-github-io-what-to-eat/zacmq8kevy?form_factor=mobile) |
-|-------|-------|
-| <kbd> ![image](desktop score image url) </kbd> | <kbd> ![image](mobile score image url) </kbd> |
-
-</div>
-
 ## Contributing
 - Support this project by giving it a star ⭐. Thanks!
 - Feel free to suggest improvements or report any issues in the repository.
+
+<br>
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
