@@ -29,6 +29,7 @@ const endMessages = [
 const MAX_DRAG_X = 200;
 const MAX_DRAG_Y = 0;
 
+// Dynamic images
 function filenameFromCategory(cat) {
   return cat
     .toLowerCase()
@@ -57,7 +58,6 @@ document.addEventListener("DOMContentLoaded", function () {
   document.getElementById("year").textContent = new Date().getFullYear();
 
   const category = document.getElementById("category");
-
   let i = 0;
 
   category.innerHTML = categories[i];
@@ -67,6 +67,7 @@ document.addEventListener("DOMContentLoaded", function () {
   let startX, startY;
   let tutorialDisabled = false;
 
+  // Drag category card functions
   category.addEventListener("pointerdown", (e) => {
     isDragging = true;
     startX = e.clientX;
@@ -78,6 +79,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const yesLabel = document.getElementById("yes-label");
   const noLabel = document.getElementById("no-label");
 
+  // Labels Yes/No logic
   category.addEventListener("pointermove", (e) => {
     if (!isDragging) return;
 
@@ -126,6 +128,8 @@ document.addEventListener("DOMContentLoaded", function () {
     category.classList.remove("swipe-yes", "swipe-no");
   });
 
+
+  // Yes/No Logic
   function handleYes() {
     if (categories.length === 0) return;
     i = (i + 1) % categories.length;
