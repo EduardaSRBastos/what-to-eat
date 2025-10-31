@@ -24,7 +24,12 @@
   <meta name="twitter:image" content="https://eduardasrbastos.github.io/what-to-eat/assets/images/preview.png" />
 
   <link rel="canonical" href="https://eduardasrbastos.github.io/what-to-eat" />
-  <link rel="stylesheet" href="styles.css" />
+
+  <link rel="preload" href="styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link rel="stylesheet" href="styles.css">
+  </noscript>
+
   <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico" />
 
   <link rel="preload" href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap" as="style" />
@@ -55,6 +60,6 @@
     under the MIT License.
   </footer>
 </body>
-<script src="index.js"></script>
+<script src="index.js" defer></script>
 
 </html>

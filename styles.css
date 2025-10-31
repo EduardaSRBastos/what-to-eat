@@ -53,7 +53,6 @@ h1 {
   animation: all 0.6s ease-in-out;
   cursor: grab;
   user-select: none;
-  background-image: url('./assets/images/categories/african.jpg');
 }
 
 #category.fade {
