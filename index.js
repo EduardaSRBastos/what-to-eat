@@ -41,6 +41,7 @@ const imageCache = [];
 categories.forEach((cat) => {
   const img = new Image();
   img.src = `./assets/images/categories/${filenameFromCategory(cat)}.jpg`;
+  img.fetchPriority = "high";
   imageCache.push(img);
 });
 

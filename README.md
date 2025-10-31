@@ -2,7 +2,6 @@
   
 # What to Eat
 [![GitHub License](https://img.shields.io/github/license/EduardaSRBastos/what-to-eat?style=plastic&color=darkred)](https://github.com/EduardaSRBastos/what-to-eat?tab=MIT-1-ov-file)
-[![GitHub Release](https://img.shields.io/github/v/release/EduardaSRBastos/what-to-eat?style=plastic&color=orange)](https://github.com/EduardaSRBastos/what-to-eat/releases)
 [![GitHub branch check runs](https://img.shields.io/github/check-runs/EduardaSRBastos/what-to-eat/main?style=plastic)](https://github.com/EduardaSRBastos/what-to-eat/actions)
 [![GitHub repo size](https://img.shields.io/github/repo-size/EduardaSRBastos/what-to-eat?style=plastic)](https://github.com/EduardaSRBastos/what-to-eat)
 
