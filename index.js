@@ -41,7 +41,6 @@ const imageCache = [];
 categories.forEach((cat) => {
   const img = new Image();
   img.src = `./assets/images/categories/${filenameFromCategory(cat)}.webp`;
-  img.fetchPriority = "high";
   imageCache.push(img);
 });
 
@@ -193,7 +192,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function hideTutorial() {
     tutorial.classList.remove("show");
-    category.classList.remove("shake"); 
+    category.classList.remove("shake");
   }
 
   function resetInactivityTimer() {
@@ -217,7 +216,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function onCategoryChange() {
     if (i >= 0) firstDrag = true;
-    console.log(category)
+    console.log(category);
     resetInactivityTimer();
   }
 });
