@@ -65,7 +65,7 @@ h1 {
 }
 
 #category.winner-shake {
-  animation: diagonalShake 2s infinite alternate;
+  animation: diagonalShake 2s infinite alternate !important;
 }
 
 #category.swipe-yes {

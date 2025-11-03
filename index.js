@@ -73,6 +73,7 @@ document.addEventListener("DOMContentLoaded", function () {
     startX = e.clientX;
     startY = e.clientY;
     category.style.transition = "none";
+    category.style.animation = "";
     category.setPointerCapture(e.pointerId);
   });
 
@@ -128,7 +129,6 @@ document.addEventListener("DOMContentLoaded", function () {
     category.classList.remove("swipe-yes", "swipe-no");
   });
 
-
   // Yes/No Logic
   function handleYes() {
     if (categories.length === 0) return;
@@ -138,6 +138,7 @@ document.addEventListener("DOMContentLoaded", function () {
       tutorialDisabled = true;
       category.innerHTML = `<span class="winner-text">${categories[0]}</span> <span class="bon-appetit-text">Bon Appétit! 🍽️</span>`;
       setBackground(category, imageCache[0].src);
+      category.style.animation = "";
       category.style.border = "5px solid gold";
       category.style.boxShadow = "0 0 25px gold";
       category.classList.add("winner-shake");
